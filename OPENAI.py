@@ -3,7 +3,7 @@ from langchain_openai import OpenAIEmbeddings
 from langchain.text_splitter import TextSplitter
 from langchain_community.vectorstores import FAISS
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 class LineTextSplitter(TextSplitter):
     def split_text(self, text):
