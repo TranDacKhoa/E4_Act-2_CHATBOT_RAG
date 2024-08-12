@@ -4,7 +4,7 @@ from langchain_community.vectorstores import FAISS
 
 import json, os 
 
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = ""
 client = OpenAI()
 
 def DRL(info):
